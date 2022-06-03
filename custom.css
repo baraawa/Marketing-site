@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+    color: #42495B;
+    outline-width: 0 !important; 
+}
+
+* {
+    outline-width: 0 !important;
+}
+
+.logo {
+    margin: 10px 0 0 15%;
+}
+
+.header-text {
+    margin: 140px 0 0 15%;
+}
+
+.btn {
+    text-decoration: none;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #1A129F 0%, #6156F9  100%);
+    display: inline-block;
+    color: #fff;
+    border-radius: 100px;
+    cursor: pointer;
+    padding: 7px 18.5px;
+    border: 1px solid #6156F9;
+    background-color: #6156F9;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    color: #42495B;
+    background-image: none !important;
+    border: 1px solid#1000FF;
+    background-color: #fff;
+}
+
+
+.btn-outline {
+    color: #42495B;
+    background-image: none !important;
+    border: 1px solid#1000FF;
+    background-color: #fff;
+}
+
+.btn-outline:hover {
+    background-image: linear-gradient(to right, #1A129F 0%, #6156F9  100%);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #7b7a8b;
+    background-color: #6156F9;
+    transition: all 0.5s ease;
+}
+
+.btn-lg {
+    padding: 13px 40px !important;
+}
+
+.link {
+    text-decoration: none;
+    color: #6156F9;
+}
+
+.floating-mouse {
+    width: 80px;
+    height: 80px;
+    padding-top: 19px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px rgba(126, 118, 249, 0.16);
+}
+
+.menu {
+    position: absolute;
+    top: 56px;
+    margin-left: 15%;
+    width: 30%;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 25px;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+
+.menu a:hover {
+    color: #42495B;
+}
+
+.about {
+    position: absolute;
+    top: 114px;
+}
+
+.offers {
+    background-image: url('images/bg_offers.png');
+    background-position: bottom;
+    background-size: contain;
+    margin: 20px;
+    padding-bottom: 200px;
+    background-repeat: no-repeat;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+
+.offers .card-body .text-xs {
+    height: 150px;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.card-icon {
+    height: 90px;
+    width: 90px;
+    margin: auto;
+    padding-top: 22px;
+}
+
+.card {
+    border-radius: 36px;
+    box-shadow: 0px 10px 20px rgba(126, 118, 249, 0.16);
+    background: #fff;
+    margin-top: 71px;
+    transition: all 1s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card-actions {
+    padding: 30px;
+}
+
+.card-title {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 28px;
+}
+
+.card-actions * {
+    display: block !important;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.pricing .card-actions * {
+    display: block !important;
+    margin: auto;
+}
+
+.pricing {
+    background-color: rgba(126, 118, 249, 0.15);
+    padding-top: 38px;
+    padding-bottom: 150px;
+    margin-bottom: 135px;
+}
+
+.pricing .card-body {
+    height: 44px;
+    overflow: hidden;
+}
+
+.pricing .card .text-primary {
+    color: #1000FF;
+    font-size: 30px !important;
+}
+
+.contact .text-l {
+    font-size: 32px !important;
+}
+
+.contact-form {
+    width: 50%;
+    margin: 20px auto;
+    margin-bottom: 50px;
+}
+
+.input {
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+input[type=email], input[type=text], input[type=password], textarea {
+    width: 100%;
+    border: 0;
+    padding-left: 30px;
+    box-sizing: border-box;
+    background-color: #F6F7FB;
+    border-radius: 5px;
+    outline-width: 0;
+}
+textarea {
+    padding: 25px;
+    font-family: 'Poppins', sans-serif !important;
+    outline-width: 0;
+    font-size: 13px;
+}
+
+input[type=email], input[type=text] , input[type=password]{
+    height: 52px;
+}
+
+.footer {
+    background-image: url('images/footer.png');
+    background-position: 85% 0px;
+    background-repeat: no-repeat;
+    height: 250px;
+    background-size: 190%;
+    color: #fff !important;
+    padding-top: 200px;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    padding-bottom: 20px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+}

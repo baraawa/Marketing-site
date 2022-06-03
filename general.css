@@ -1,0 +1,60 @@
+.img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.text-primary {
+    color: #7E76F9;
+}
+
+.text-xl {
+    font-size: 74px !important;
+}
+
+.text-l {
+    font-size: 50px !important;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.text-sm {
+    font-size: 16px !important;
+}
+
+.text-xs {
+    font-size: 15px !important;
+}
+
+.b {
+    font-weight: bold;
+}
+
+.l {
+    font-weight: 300;
+    color: #7A839E;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+
+.w-50 {
+    width: 50%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-25 {
+    width: 25%;
+}
